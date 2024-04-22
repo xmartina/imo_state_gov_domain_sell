@@ -1,8 +1,9 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+const rootDir = '/home/multistream6/domains/taxi.matagram.com/public_html';
 // Include Composer autoloader
-require 'vendor/autoload.php';
+require rootDir.'vendor/autoload.php';
 
 // Now you can use PHPMailer classes
 // For example:
@@ -15,9 +16,9 @@ if(isset($_POST['submit'])) {
     $offer = $_POST['offer'];
 
 // Your PHPMailer code goes here
-    require 'vendor/phpmailer/phpmailer/src/Exception.php';
-    require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
-    require 'vendor/phpmailer/phpmailer/src/SMTP.php';
+    require rootDir. 'vendor/phpmailer/phpmailer/src/Exception.php';
+    require rootDir. 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
+    require rootDir. 'vendor/phpmailer/phpmailer/src/SMTP.php';
 
 // Instantiate PHPMailer
     $mail = new PHPMailer(true);
