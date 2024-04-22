@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-const rootDir = '/home/multistream6/domains/taxi.matagram.com/public_html';
+const rootDir = '/home/multistream6/domains/taxi.matagram.com/public_html/';
 // Include Composer autoloader
 require rootDir.'vendor/autoload.php';
 
