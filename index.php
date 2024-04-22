@@ -90,7 +90,7 @@
                     <input name="offer" type="number" class="form-control border-2" required="" placeholder="Enter Your Offer">
                     <span class="icon-inside"><i class="fas fa-dollar-sign"></i></span> </div>
                   <div class="d-grid mt-4">
-                    <button id="submit-btn" class="btn btn-primary" name="submit" type="submit">Send My Offer</button>
+                    <button id="submit-btn_remove_this" class="btn btn-primary" name="submit" type="submit">Send My Offer</button>
                   </div>
                 </form>
               </div>
