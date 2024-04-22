@@ -71,9 +71,11 @@
           <div class="col-lg-4 my-auto py-lg-5">
             <div class="row bg-light rounded text-center mx-0 py-4 mb-4 mb-lg-0">
               <div class="col-11 mx-auto my-3">
+                <?php if ($_GET['msg'] == 'email_sent_successfully') { ?>
                 <div class="alert alert-success" role="alert">
                   This is a success alert—check it out!
                 </div>
+                <?php } ?>
                 <h3 class="mb-3 fw-600">Make Your offer</h3>
                 <p class="text-black-50 mb-4">Please fill out the form below so that the seller receive your offer.</p>
                 <!-- Contact Form -->
