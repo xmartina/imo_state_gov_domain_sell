@@ -79,7 +79,7 @@
                 <h3 class="mb-3 fw-600">Make Your offer</h3>
                 <p class="text-black-50 mb-4">Please fill out the form below so that the seller receive your offer.</p>
                 <!-- Contact Form -->
-                <form id="contact-form" action="php/mail.php" method="post">
+                <form action="php/mail.php" method="post">
                   <div class="position-relative icon-group mb-3">
                     <input name="bidder_name" type="text" class="form-control border-2" required="" placeholder="Enter Your Name">
                     <span class="icon-inside"><i class="fas fa-user"></i></span> </div>
