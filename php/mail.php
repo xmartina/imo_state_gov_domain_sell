@@ -45,7 +45,7 @@ if(isset($_POST['submit'])) {
         // Send email
         $mail->send();
 //        echo 'Email sent successfully!';
-        header('Location: index.php?msg=email_sent_successfully');
+        header('Location: /index.php?msg=email_sent_successfully');
     } catch (Exception $e) {
         echo 'Error: ' . $mail->ErrorInfo;
     }
